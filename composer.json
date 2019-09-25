@@ -1,0 +1,41 @@
+{
+    "name": "trowski/async-mailer",
+    "homepage": "https://github.com/trowski/async-mailer",
+    "description": "Async mailer for PHP implemented using Amp and Swift Mailer.",
+    "keywords": [
+        "email",
+        "mail",
+        "async",
+        "non-blocking",
+        "amp",
+        "amphp"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Piotrowski",
+            "email": "aaron@trowski.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "amphp/amp": "^2.2",
+        "amphp/parallel": "^1.2",
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "require-dev": {
+        "amphp/php-cs-fixer-config": "dev-master",
+        "amphp/phpunit-util": "^1.1.2",
+        "phpunit/phpunit": "^8 || ^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trowski\\AsyncMailer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trowski\\AsyncMailer\\Test\\": "test"
+        }
+    }
+}
