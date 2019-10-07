@@ -1,6 +1,6 @@
 <?php
 
-namespace Trowski\AsyncMailer;
+namespace Trowski\AsyncSwiftMailer;
 
 use Amp\Parallel\Worker;
 use Amp\Parallel\Worker\Pool;

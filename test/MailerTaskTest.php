@@ -1,13 +1,13 @@
 <?php
 
-namespace Trowski\AsyncMailer\Test;
+namespace Trowski\AsyncSwiftMailer\Test;
 
 use Amp\Parallel\Worker\BasicEnvironment;
 use PHPUnit\Framework\TestCase;
 use Swift_Message as SwiftMessage;
 use Swift_Transport as SwiftTransport;
-use Trowski\AsyncMailer\MailerTask;
-use Trowski\AsyncMailer\TransportFactory;
+use Trowski\AsyncSwiftMailer\MailerTask;
+use Trowski\AsyncSwiftMailer\TransportFactory;
 
 class MailerTaskTest extends TestCase
 {

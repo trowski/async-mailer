@@ -1,10 +1,10 @@
 <?php
 
-namespace Trowski\AsyncMailer\Test;
+namespace Trowski\AsyncSwiftMailer\Test;
 
 use PHPUnit\Framework\TestCase;
 use Swift_SendmailTransport as SwiftSendmailTransport;
-use Trowski\AsyncMailer\SendmailTransportFactory;
+use Trowski\AsyncSwiftMailer\SendmailTransportFactory;
 
 class SendmailTransportFactoryTest extends TestCase
 {

@@ -1,6 +1,6 @@
 {
-    "name": "trowski/async-mailer",
-    "homepage": "https://github.com/trowski/async-mailer",
+    "name": "trowski/async-swift-mailer",
+    "homepage": "https://github.com/trowski/async-swift-mailer",
     "description": "Async mailer for PHP implemented using Amp and Swift Mailer.",
     "keywords": [
         "email",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Trowski\\AsyncMailer\\": "src"
+            "Trowski\\AsyncSwiftMailer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Trowski\\AsyncMailer\\Test\\": "test"
+            "Trowski\\AsyncSwiftMailer\\Test\\": "test"
         }
     }
 }

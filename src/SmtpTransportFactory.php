@@ -1,6 +1,6 @@
 <?php
 
-namespace Trowski\AsyncMailer;
+namespace Trowski\AsyncSwiftMailer;
 
 use Swift_SmtpTransport as SwiftSmtpTransport;
 use Swift_Transport as SwiftTransport;

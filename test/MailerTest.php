@@ -1,6 +1,6 @@
 <?php
 
-namespace Trowski\AsyncMailer\Test;
+namespace Trowski\AsyncSwiftMailer\Test;
 
 use Amp\Parallel\Worker\Environment;
 use Amp\Parallel\Worker\Pool;
@@ -9,8 +9,8 @@ use Amp\PHPUnit\AsyncTestCase;
 use Amp\Promise;
 use Swift_Message as SwiftMessage;
 use Swift_Transport as SwiftTransport;
-use Trowski\AsyncMailer\Mailer;
-use Trowski\AsyncMailer\TransportFactory;
+use Trowski\AsyncSwiftMailer\Mailer;
+use Trowski\AsyncSwiftMailer\TransportFactory;
 use function Amp\call;
 
 class MailerTest extends AsyncTestCase
