@@ -29,7 +29,7 @@ final class MailerTask implements Task
         return $failed;
     }
 
-    public function getTransport(Environment $environment): SwiftTransport
+    private function getTransport(Environment $environment): SwiftTransport
     {
         $key = \get_class($this->factory) . '#' . $this->factory->getKey();
 
