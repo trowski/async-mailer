@@ -67,6 +67,7 @@ final class SmtpTransportFactory implements TransportFactory
             . $this->port
             . $this->username
             . $this->password
+            . $this->authMode
             . $this->localDomain
             . ($this->encrypted ? '1' : '0')
         );
